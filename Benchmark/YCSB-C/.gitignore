@@ -1,0 +1,73 @@
+# clion
+.idea
+cmake*
+CMake*
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/Debug/
+
+.project
+.cproject
+.settings/
+
+*.result
+*.log
+*.data
+*.output
+
+redis/sample
+ycsbc
+resultDir
+*latencies*
+db_size
+
+#python cache
+.mypy_cache
+__pycache__
+#vscode cache
+.vscode
+loadedDB
+
+temp.ini
+workloada-temp.spec
+workload-temp.spec
+
+Exp*
+
+ycsbc_debug
+ycsbc_release
+countSSTInfo
+countSSTInfoLevel
+tmpappend
+tmpappend-prepare
+
+test.sh
+debug.sh
+runLog.sh
+tmp_cpu_usage.txt
